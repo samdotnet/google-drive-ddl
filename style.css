@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  text-align: center;
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+input.field {
+  padding: 0.5em;
+  width: 10cm;
+}
+
+input.convert, input.copy {
+  padding: 0.5em
+}
