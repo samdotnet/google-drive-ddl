@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Google Drive Link Conversion</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js"></script>
+
+	<h1>Google Drive Direct Download Link Conversion</h1>
+	<form id="linkSubmissionForm">
+		<input class="field" placeholder="Paste Google Drive Link" type="text" id="linkSubmit">
+    <input class="convert" id="convertButton" type="button" onclick="convertLink()" value="Convert">
+  </form>
+
+  <input class="field" type="text" value="" id="result" placeholder="Output Here"/>
+
+  <input class="copy" type="button" onClick="copyLink()" value="Copy">
+
+  <h4>A Few Notes</h4>
+
+  <ul>
+    <li>You cannot create Google Drive direct download links for Google Docs, Sheets, Forms, and Maps.</li>
+    <li>Your link can be made into a direct download link if it has "/file/" directly after drive.google.com.</li>
+    <li>If you liked this tool, you might like some of the other things I've made. Check out <a href="https://locuroid.com">locuroid.com</a>
+  </ul>
+
+  </body>
+</html>
