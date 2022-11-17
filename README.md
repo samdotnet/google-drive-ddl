@@ -4,4 +4,4 @@
 
 It's super simple, is already hosted, and doesn't have php.
 
-## Use it at [google-drive-ddl.glitch.me](https://google-drive-ddl.glitch.me)
+## Use it at [samthings.xyz/googledrivething](https://samthings.xyz/googledrivething/)
